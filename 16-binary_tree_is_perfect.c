@@ -1,5 +1,10 @@
 #include "binary_trees.h"
-
+/**
+  *binary_tree_is_perfect - checks whether a binary tree is perfect
+  *@tree: the tree
+  *
+  *Return: 0 if perfect, otherwise 1
+  */
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
 	int perfect = 0;
